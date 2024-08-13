@@ -1,0 +1,56 @@
+{
+  "Employee_Details": [
+    {
+      "FirstName": "Vigeesh Kumar",
+      "LastName": "Viruppil",
+      "Email": "vigeeshvkm@gmail.com",
+      "Role": "Admin",
+      "id": "CRK7TLN",
+      "Designation": "Solution Architect Manager",
+      "Gender": "Male",
+      "JoiningDate": "2024-08-08",
+      "BaseLocation": "Kochi",
+      "Salary": "25,00,000",
+      "Password": "xqGyUn9y"
+    },
+    {
+      "id": "DFL7ZQD",
+      "FirstName": "SivaPriya",
+      "LastName": "Peta",
+      "Email": "sivapriya@gmail.com",
+      "Role": "NonAdmin",
+      "Designation": "Senior Software Developer",
+      "JoiningDate": "2024-08-01",
+      "Gender": "Female",
+      "BaseLocation": "Hyderabad",
+      "password": "UeXCGWFR",
+      "Salary": "20,00,000"
+    },
+    {
+      "id": "CFT43G5",
+      "FirstName": "Sireesha",
+      "LastName": "Peta",
+      "Email": "sireesha@gmail.com",
+      "Role": "NonAdmin",
+      "Designation": "Customer Associate",
+      "JoiningDate": "2024-05-07",
+      "Gender": "Female",
+      "BaseLocation": "Chennai",
+      "password": "7TKm2w1W",
+      "Salary": "7,50,000"
+    },
+    {
+      "id": "ABK1234",
+      "FirstName": "Gangadhar",
+      "LastName": "Peta",
+      "Email": "gangadhar@gmail.com",
+      "Role": "Admin",
+      "Designation": "NEET Professor",
+      "JoiningDate": "2024-08-02",
+      "Gender": "Male",
+      "BaseLocation": "Delhi",
+      "password": "WqrQMyH1",
+      "Salary": "7,50,000"
+    }
+  ]
+}

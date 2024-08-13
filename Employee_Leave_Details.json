@@ -1,0 +1,57 @@
+{
+  "Leave_Details": [
+    {
+      "id": "DFL7ZQD",
+      "Manager": "CRK7TLN",
+      "Sick": 9,
+      "Casual": 9,
+      "Total": 24,
+      "Consumed": 4,
+      "Requests": [
+        {
+          "LeaveId": 1,
+          "LeaveType": "Casual",
+          "Reason": "Family Function",
+          "Status": "Approved"
+        },
+        {
+          "LeaveId": 2,
+          "LeaveType": "Sick",
+          "Reason": "Fever",
+          "Status": "Approved"
+        }
+      ]
+    },
+    {
+      "id": "CRK7TLN",
+      "Sick": 6,
+      "Casual": 10,
+      "Total": 24,
+      "Consumed": 8,
+      "Manager": "ABK1234",
+      "Requests": [
+        {
+          "LeaveId": 1,
+          "LeaveType": "Sick",
+          "Reason": "Not Keeping Well",
+          "Status": "Approved"
+        },
+        {
+          "LeaveId": 3,
+          "LeaveType": "Casual",
+          "Reason": "Family Function",
+          "Status": "Pending"
+        }
+      ]
+    },
+    {
+      "id": "CRK7634",
+      "Sick": 10,
+      "Casual": 14,
+      "Total": 24,
+      "Consumed": 0,
+      "Manager": "DFL7ZQD",
+      "Requests": []
+    }
+  ]
+}

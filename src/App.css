@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+:root{
+  --primary-color:#00528b;
+  --button-color:#036a9d;
+  --base-bgcolor:#ffffff;
+  --base-textcolor:#02effc;
+  --error-color:red;
+  --font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: var(--font-family);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button{
+  background-color: var(--button-color) !important;
+  border: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formSection{
+ display: inline-block;
+ background-color: var(--base-bgcolor);
+ height:fit-content;
+ border-radius: 15px;
+ margin-top:8% !important;
+ opacity:0.9;
+ border: 1px solid var(--primary-color) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.formHeading, .formFieldsAlign{
+ text-align:center;
+ color:var(--primary-color);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login_sideNav_img{
+  height:80vh;
+  margin-top: 5% !important;
+  
+  width: 115%;
+  opacity: 0.8;
+  border-radius: 15px;;
 }
+
+#errorMessage{
+  color:var(--error-color);
+  font-style: italic;
+}
+
+.hr_navbar{
+  padding:0;
+  background-color: var(--primary-color);
+}
+
+.nav-link{
+  color:var(--base-bgcolor) !important;
+}
+
+.nav-link:hover, .nav-link:focus, .nav-link:active {
+  color: var(--base-textcolor) !important;
+}
+
+.nav-item{
+  margin-left:2em;
+}
+
+.navBarUnOrderedList{
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+
+.employeeDetails td {
+  width: 14rem;
+  height: 2.5rem;
+  font-size: 20px;
+}
+
+
